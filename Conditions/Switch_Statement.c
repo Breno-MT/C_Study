@@ -10,6 +10,8 @@ int main(){
     printf("\nEnter a letter grade: ");
     scanf("%c", &grade);
 
+    grade = toupper(grade);
+
     switch(grade){
         case 'A':
             printf("\nPerfect!\n");
