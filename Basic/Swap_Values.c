@@ -7,9 +7,9 @@ int main(){
     char y[50] = "lemonade";
     char temp[50];
 
-    strcpy(temp, x);
-    strcpy(x, y);
-    strcpy(y, temp);
+    strcpy(temp, x); // temp = x;
+    strcpy(x, y); // x = y;
+    strcpy(y, temp); // y = temp;
 
     printf("x = %s\n", x);
     printf("y = %s\n", y);
